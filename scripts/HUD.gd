@@ -6,7 +6,6 @@ signal start_game
 func _ready() -> void:
 	pass # Replace with function body.
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
@@ -36,3 +35,10 @@ func _on_start_button_pressed() -> void:
 
 func _on_message_timer_timeout() -> void:
 	$Message.hide()
+
+func StartButton() -> void:
+	pass # Replace with function body.
+
+
+func MessageTimer() -> void:
+	pass # Replace with function body.
